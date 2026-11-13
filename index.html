@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>발리 살사 & 힐링 4박 5일 여행 가이드 🌴💃 (2026-2027 최신)</title>
+    <meta name="description" content="낮에는 우붓 정글과 에메랄드 바다에서 힐링하고, 밤에는 열정의 살사·바차타 소셜을 즐기는 발리 완벽 동선 가이드!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #ea580c; /* 테라코타 라틴 오렌지 */
+            --primary-dark: #c2410c;
+            --secondary: #0f766e; /* 발리 에메랄드 정글 틸 */
+            --secondary-light: #ccfbf1;
+            --accent: #f59e0b; /* 선셋 골드 */
+            --dark: #0f172a;
+            --slate: #334155;
+            --muted: #64748b;
+            --light-bg: #f8fafc;
+            --card-bg: #ffffff;
+            --border: #e2e8f0;
+            --radius: 16px;
+            --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+            --shadow-lg: 0 20px 30px -10px rgba(234, 88, 12, 0.15);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+            background-color: var(--light-bg);
+            color: var(--slate);
+            line-height: 1.65;
+            -webkit-font-smoothing: antialiased;
+            word-break: keep-all;
+        }
+
+        /* 글로벌 네비게이션 탭 */
+        .global-nav {
+            background-color: #090d16;
+            padding: 0.8rem 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .nav-container {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-brand {
+            color: #fff;
+            font-size: 0.95rem;
+            font-weight: 700;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .nav-tabs {
+            display: flex;
+            gap: 6px;
+        }
+
+        .nav-tab {
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s;
+            color: #94a3b8;
+        }
+
+        .nav-tab.active {
+            background-color: var(--primary);
+            color: #ffffff;
+        }
+
+        .nav-tab:hover:not(.active) {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #fff;
+        }
+
+        /* 헤로 섹션 */
+        .hero {
+            background: linear-gradient(135deg, #1e1b4b 0%, #0f172a 40%, #064e3b 100%);
+            color: #ffffff;
+            padding: 4rem 1.5rem 3.5rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(circle at 80% 20%, rgba(234, 88, 12, 0.25) 0%, transparent 60%);
+            pointer-events: none;
+        }
+
+        .badge-hero {
+            display: inline-block;
+            background: rgba(245, 158, 11, 0.2);
+            border: 1px solid rgba(245, 158, 11, 0.4);
+            color: #fbbf24;
+            padding: 0.35rem 1rem;
+            border-radius: 30px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            margin-bottom: 1.2rem;
+        }
+
+        .hero h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.3rem;
+            font-weight: 900;
+            line-height: 1.25;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+
+        .hero h1 span {
+            background: linear-gradient(135deg, #fbbf24, #f97316);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 1.05rem;
+            color: #cbd5e1;
+            max-width: 620px;
+            margin: 0 auto 1.8rem;
+        }
+
+        /* eSIM 안내 바 */
+        .esim-banner {
+            max-width: 900px;
+            margin: -1.5rem auto 2.5rem;
+            padding: 0 1rem;
+            position: relative;
+            z-index: 10;
+        }
+
+        .esim-card {
+            background: #ffffff;
+            border-radius: var(--radius);
+            padding: 1rem 1.4rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .esim-info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .esim-badge {
+            background: #eff6ff;
+            color: #2563eb;
+            font-weight: 800;
+            font-size: 0.75rem;
+            padding: 4px 8px;
+            border-radius: 6px;
+        }
+
+        .esim-text strong {
+            color: var(--dark);
+            font-size: 0.95rem;
+        }
+
+        .esim-text p {
+            font-size: 0.85rem;
+            color: var(--muted);
+            margin: 0;
+        }
+
+        .btn-esim {
+            background: #2563eb;
+            color: #fff;
+            padding: 0.55rem 1.1rem;
+            border-radius: 30px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+        .btn-esim:hover {
+            background: #1d4ed8;
+        }
+
+        /* 메인 컨테이너 */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1.2rem 4rem;
+        }
+
+        /* 섹션 헤더 */
+        .section-header {
+            text-align: center;
+            margin-bottom: 2.2rem;
+        }
+
+        .section-badge {
+            display: inline-block;
+            color: var(--secondary);
+            background: var(--secondary-light);
+            font-size: 0.8rem;
+            font-weight: 800;
+            padding: 4px 12px;
+            border-radius: 20px;
+            margin-bottom: 0.5rem;
+        }
+
+        .section-title {
+            font-size: 1.7rem;
+            font-weight: 800;
+            color: var(--dark);
+            margin-bottom: 0.4rem;
+        }
+
+        .section-desc {
+            font-size: 0.95rem;
+            color: var(--muted);
+        }
+
+        /* 살사 주간 스케줄 카드 (핵심 특화) */
+        .salsa-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.2rem;
+            margin-bottom: 3.5rem;
+        }
+
+        .salsa-day-card {
+            background: #ffffff;
+            border-radius: var(--radius);
+            padding: 1.3rem;
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow);
+            position: relative;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .salsa-day-card:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .day-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #f1f5f9;
+            padding-bottom: 0.7rem;
+            margin-bottom: 0.9rem;
+        }
+
+        .day-name {
+            font-weight: 800;
+            font-size: 1.1rem;
+            color: var(--primary);
+        }
+
+        .day-area-tag {
+            font-size: 0.75rem;
+            background: #f1f5f9;
+            color: var(--slate);
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-weight: 600;
+        }
+
+        .venue-name {
+            font-size: 1.05rem;
+            font-weight: 800;
+            color: var(--dark);
+            margin-bottom: 0.3rem;
+        }
+
+        .venue-meta {
+            font-size: 0.83rem;
+            color: var(--muted);
+            margin-bottom: 0.6rem;
+            line-height: 1.5;
+        }
+
+        .venue-tags {
+            display: flex;
+            gap: 5px;
+            flex-wrap: wrap;
+            margin-bottom: 0.8rem;
+        }
+
+        .v-tag {
+            font-size: 0.72rem;
+            font-weight: 700;
+            padding: 2px 7px;
+            border-radius: 4px;
+        }
+
+        .v-tag.sbk { background: #fee2e2; color: #b91c1c; }
+        .v-tag.live { background: #fef3c7; color: #b45309; }
+        .v-tag.free { background: #dcfce7; color: #15803d; }
+        .v-tag.sunset { background: #e0e7ff; color: #4338ca; }
+
+        .venue-tip {
+            font-size: 0.82rem;
+            background: #f8fafc;
+            border-left: 3px solid var(--accent);
+            padding: 6px 10px;
+            color: #475569;
+            border-radius: 0 6px 6px 0;
+        }
+
+        /* 4박 5일 완벽 일정표 */
+        .itinerary-day {
+            background: #ffffff;
+            border-radius: var(--radius);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow);
+        }
+
+        .itinerary-day-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--primary), #f97316);
+            color: #ffffff;
+            font-weight: 800;
+            font-size: 0.85rem;
+            padding: 4px 14px;
+            border-radius: 20px;
+            margin-bottom: 0.8rem;
+        }
+
+        .itinerary-title {
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: var(--dark);
+            margin-bottom: 0.4rem;
+        }
+
+        .itinerary-theme {
+            font-size: 0.95rem;
+            color: var(--secondary);
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 1.8rem;
+            border-left: 2px dashed #cbd5e1;
+            margin-bottom: 1.8rem;
+        }
+
+        .timeline-step {
+            position: relative;
+            margin-bottom: 1.4rem;
+        }
+
+        .timeline-step:last-child {
+            margin-bottom: 0;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            left: -2.35rem;
+            top: 0.2rem;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: #ffffff;
+            border: 3px solid var(--primary);
+        }
+
+        .timeline-dot.salsa {
+            border-color: #ef4444;
+            background: #fee2e2;
+        }
+
+        .step-time {
+            font-size: 0.8rem;
+            font-weight: 800;
+            color: var(--muted);
+            margin-bottom: 2px;
+        }
+
+        .step-heading {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--dark);
+            margin-bottom: 0.3rem;
+        }
+
+        .step-desc {
+            font-size: 0.9rem;
+            color: #475569;
+        }
+
+        /* 투어 예약 박스 (비아터 제휴 연동) */
+        .tour-booking-box {
+            background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+            border: 1px solid #fde68a;
+            border-radius: 12px;
+            padding: 1.3rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1.2rem;
+            flex-wrap: wrap;
+        }
+
+        .tour-meta {
+            flex: 1;
+            min-width: 240px;
+        }
+
+        .tour-badge {
+            display: inline-block;
+            background: #b45309;
+            color: #ffffff;
+            font-size: 0.72rem;
+            font-weight: 800;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-bottom: 0.4rem;
+        }
+
+        .tour-title {
+            font-size: 1.05rem;
+            font-weight: 800;
+            color: #78350f;
+            margin-bottom: 0.3rem;
+        }
+
+        .tour-highlights {
+            font-size: 0.83rem;
+            color: #92400e;
+        }
+
+        .btn-viator {
+            background: #ea580c;
+            color: #ffffff;
+            font-size: 0.9rem;
+            font-weight: 800;
+            padding: 0.75rem 1.4rem;
+            border-radius: 30px;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(234, 88, 12, 0.3);
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+
+        .btn-viator:hover {
+            background: #c2410c;
+            transform: translateY(-2px);
+        }
+
+        /* 댄서 팁 박스 */
+        .tips-section {
+            background: #ffffff;
+            border-radius: var(--radius);
+            padding: 2.2rem;
+            margin-bottom: 3.5rem;
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow);
+        }
+
+        .tips-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1.4rem;
+            margin-top: 1.5rem;
+        }
+
+        .tip-card {
+            background: #f8fafc;
+            padding: 1.2rem;
+            border-radius: 12px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .tip-card h4 {
+            font-size: 1rem;
+            color: var(--dark);
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .tip-card p {
+            font-size: 0.87rem;
+            color: var(--slate);
+            line-height: 1.6;
+        }
+
+        /* 하단 비아터 숍 배너 */
+        .shop-banner {
+            background: linear-gradient(135deg, #064e3b 0%, #0f172a 100%);
+            border-radius: var(--radius);
+            padding: 2.5rem 1.8rem;
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: 3rem;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .shop-banner h3 {
+            font-size: 1.6rem;
+            font-weight: 800;
+            margin-bottom: 0.6rem;
+        }
+
+        .shop-banner p {
+            color: #cbd5e1;
+            font-size: 0.95rem;
+            max-width: 580px;
+            margin: 0 auto 1.6rem;
+        }
+
+        .btn-shop {
+            display: inline-block;
+            background: #f59e0b;
+            color: #0f172a;
+            font-size: 0.95rem;
+            font-weight: 800;
+            padding: 0.8rem 1.8rem;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+        .btn-shop:hover {
+            background: #d97706;
+            color: #fff;
+            transform: translateY(-2px);
+        }
+
+        /* 푸터 */
+        footer {
+            border-top: 1px solid var(--border);
+            padding-top: 2rem;
+            text-align: center;
+            font-size: 0.82rem;
+            color: var(--muted);
+        }
+
+        footer a {
+            color: var(--slate);
+            text-decoration: underline;
+        }
+
+        .ftc-notice {
+            background: #f1f5f9;
+            padding: 0.8rem;
+            border-radius: 8px;
+            font-size: 0.78rem;
+            color: #64748b;
+            margin-top: 1rem;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 640px) {
+            .hero h1 { font-size: 1.8rem; }
+            .hero p { font-size: 0.95rem; }
+            .itinerary-day { padding: 1.4rem; }
+            .tour-booking-box { flex-direction: column; align-items: stretch; }
+            .btn-viator { text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 글로벌 다국가 네비게이션 탭 -->
+    <nav class="global-nav">
+        <div class="nav-container">
+            <a href="https://enoklee.github.io/bangkok-guide/" class="nav-brand">🌏 Overseas Life Lab</a>
+            <div class="nav-tabs">
+                <a href="https://enoklee.github.io/bangkok-guide/" class="nav-tab">🇹🇭 방콕 가이드</a>
+                <a href="https://enoklee.github.io/bali-guide/" class="nav-tab active">🌴 발리 살사&힐링</a>
+                <a href="https://vi.me/s/overseaslifelab" class="nav-tab" target="_blank">🌏 투어 숍</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 히어로 섹션 -->
+    <header class="hero">
+        <span class="badge-hero">2026-2027 BALI SALSA & HEALING GUIDE</span>
+        <h1>낮에는 정글 힐링, <span>밤에는 열정의 살사 💃</span></h1>
+        <p>복잡한 발리 트래픽은 이제 그만! 전 세계 댄서들이 모이는 요일별 핫스팟과 최적 동선으로 설계한 4박 5일 살사 & 감성 투어 완벽 가이드북</p>
+    </header>
+
+    <!-- 에어로로 eSIM 제휴 카드 -->
+    <div class="esim-banner">
+        <div class="esim-card">
+            <div class="esim-info">
+                <span class="esim-badge">eSIM 추천</span>
+                <div class="esim-text">
+                    <strong>발리 공항 도착 즉시 인터넷 1초 연결 (Airalo)</strong>
+                    <p>스쿠터 내비게이션 & 고젝 호출 필수! 첫 구매 $5 즉시 할인코드: <code>CHAEMI3422</code></p>
+                </div>
+            </div>
+            <a href="https://airalo.go.link/5zfCT" target="_blank" rel="noopener noreferrer" class="btn-esim">eSIM $5 할인받기 →</a>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <!-- 섹션 1: 발리 요일별 살사 캘린더 (실전 핵심) -->
+        <section style="margin-bottom: 3.5rem;">
+            <div class="section-header">
+                <span class="section-badge">WHERE TO DANCE</span>
+                <h2 class="section-title">발리 요일별 살사바 핫스팟 총정리</h2>
+                <p class="section-desc">발리는 매일 밤 소셜이 열립니다. 머무시는 요일에 맞춰 동선을 잡으세요!</p>
+            </div>
+
+            <div class="salsa-grid">
+                <!-- 화요일 -->
+                <div class="salsa-day-card">
+                    <div class="day-header">
+                        <span class="day-name">화요일 (Tue)</span>
+                        <span class="day-area-tag">스미냑 (Seminyak)</span>
+                    </div>
+                    <div class="venue-name">La Favela (라 파벨라)</div>
+                    <div class="venue-meta">⏰ 20:30 ~ 22:30 (소셜 후 클럽 전환)<br>📍 Oberoi Street, Seminyak</div>
+                    <div class="venue-tags">
+                        <span class="v-tag sbk">Salsa & Bachata</span>
+                        <span class="v-tag live">라이브 라틴 밴드</span>
+                    </div>
+                    <div class="venue-tip">💡 <strong>공간 팁:</strong> 거대한 스페인풍 대저택 빈티지 인테리어! 화요일 밤 발리에서 가장 스타일리시한 댄서들이 집결합니다. 슬리퍼 입장 불가.</div>
+                </div>
+
+                <!-- 수요일 -->
+                <div class="salsa-day-card">
+                    <div class="day-header">
+                        <span class="day-name">수요일 (Wed)</span>
+                        <span class="day-area-tag">짱구 (Canggu) / 우붓</span>
+                    </div>
+                    <div class="venue-name">Amavi Canggu / Herb Library</div>
+                    <div class="venue-meta">⏰ 21:00 ~ 24:00 (Amavi)<br>📍 Berawa Beach St, Canggu</div>
+                    <div class="venue-tags">
+                        <span class="v-tag sbk">SBK 소셜</span>
+                        <span class="v-tag free">무료 입장</span>
+                    </div>
+                    <div class="venue-tip">💡 <strong>공간 팁:</strong> 짱구 풀사이드 라운지에서 열리는 트렌디한 소셜. 우붓에 계신다면 아디와나 리조트 내 'Herb Library' 숲속 소셜(19:30~22:00)을 추천!</div>
+                </div>
+
+                <!-- 목요일 -->
+                <div class="salsa-day-card">
+                    <div class="day-header">
+                        <span class="day-name">목요일 (Thu)</span>
+                        <span class="day-area-tag">우붓 / 스미냑</span>
+                    </div>
+                    <div class="venue-name">Pilleyar Bar / Red Ruby</div>
+                    <div class="venue-meta">⏰ 20:00 ~ 22:30 (Pilleyar)<br>📍 Pengosekan Street, Ubud</div>
+                    <div class="venue-tags">
+                        <span class="v-tag sbk">SBKZ</span>
+                        <span class="v-tag live">목요 피크 소셜</span>
+                    </div>
+                    <div class="venue-tip">💡 <strong>공간 팁:</strong> 우붓 블랑코 미술관 건너편 테라스에서 펼쳐지는 주중 최대 소셜. 스미냑 쪽에선 힙한 클럽 'Red Ruby' 소셜이 열립니다.</div>
+                </div>
+
+                <!-- 금요일 (메인) -->
+                <div class="salsa-day-card" style="border: 2px solid var(--primary);">
+                    <div class="day-header">
+                        <span class="day-name" style="color:#ef4444;">금요일 (Fri) ★피크</span>
+                        <span class="day-area-tag" style="background:#fee2e2; color:#b91c1c;">우붓 (Ubud)</span>
+                    </div>
+                    <div class="venue-name">CP Lounge Ubud (씨피 라운지)</div>
+                    <div class="venue-meta">⏰ 20:00 ~ 23:00 (자정까지 라이브)<br>📍 Monkey Forest St No.15, Ubud</div>
+                    <div class="venue-tags">
+                        <span class="v-tag sbk">살사 & 바차타</span>
+                        <span class="v-tag live">풀사이드 라이브 밴드</span>
+                        <span class="v-tag free">무료 입장</span>
+                    </div>
+                    <div class="venue-tip">💡 <strong>성지 순례:</strong> 발리 댄서라면 누구나 거쳐가는 금요일의 성지! 대형 야외 풀장 옆에서 열리며 남성 민소매(나시)는 입장 불가입니다.</div>
+                </div>
+
+                <!-- 토요일 -->
+                <div class="salsa-day-card">
+                    <div class="day-header">
+                        <span class="day-name">토요일 (Sat)</span>
+                        <span class="day-area-tag">울루와투 (Uluwatu) / 우붓</span>
+                    </div>
+                    <div class="venue-name">Hatch Bar / Enclave Bistro</div>
+                    <div class="venue-meta">⏰ 20:30 ~ 심야 (Hatch)<br>📍 Labuansait St, Uluwatu</div>
+                    <div class="venue-tags">
+                        <span class="v-tag live">살사 피에스타</span>
+                        <span class="v-tag sbk">라틴 밴드 & DJ</span>
+                    </div>
+                    <div class="venue-tip">💡 <strong>공간 팁:</strong> 울루와투 절벽 해변 투어 후 들르기 좋은 네온 포레스트 바! 우붓에선 하노만 거리 'Enclave'와 맥스원 호텔 루프탑 바차타가 열립니다.</div>
+                </div>
+
+                <!-- 일요일 -->
+                <div class="salsa-day-card">
+                    <div class="day-header">
+                        <span class="day-name">일요일 (Sun)</span>
+                        <span class="day-area-tag">레기안 (Legian Beach)</span>
+                    </div>
+                    <div class="venue-name">Azul Beach Club (아줄 비치클럽)</div>
+                    <div class="venue-meta">⏰ 14:30 ~ 18:00 (선셋 낮 살사)<br>📍 Padma Beach, Legian</div>
+                    <div class="venue-tags">
+                        <span class="v-tag sunset">선셋 비치 소셜</span>
+                        <span class="v-tag sbk">트로피컬 DJ</span>
+                    </div>
+                    <div class="venue-tip">💡 <strong>낭만 팁:</strong> 야자수 그늘과 파도 소리를 들으며 시원한 코코넛이나 칵테일 한잔과 함께 즐기는 낮 살사! 밤 비행기 타기 전 완벽한 코스입니다.</div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 섹션 2: 4박 5일 살사 중심 완벽 동선 일정표 -->
+        <section style="margin-bottom: 3.5rem;">
+            <div class="section-header">
+                <span class="section-badge">ITINERARY</span>
+                <h2 class="section-title">살사 & 힐링 4박 5일 완벽 동선</h2>
+                <p class="section-desc">낮에는 발리 필수 버킷리스트를 프라이빗 투어로 편안하게, 밤에는 그 지역 살사바로 바로 쏙 들어가는 최적화 스케줄!</p>
+            </div>
+
+            <!-- Day 1 -->
+            <div class="itinerary-day">
+                <span class="itinerary-day-badge">DAY 1</span>
+                <h3 class="itinerary-title">스미냑·짱구 도착 & 화요/수요 라틴 나이트</h3>
+                <p class="itinerary-theme">해변 칠링 & 발리 최고 핫플 라 파벨라(La Favela)의 라이브 살사</p>
+
+                <div class="timeline">
+                    <div class="timeline-step">
+                        <div class="timeline-dot"></div>
+                        <div class="step-time">14:00 - 17:00</div>
+                        <div class="step-heading">발리 공항 도착 & 짱구/스미냑 체크인</div>
+                        <div class="step-desc">공항에서 에어로로 eSIM 켜고 그랩/클룩 차량으로 스미냑 숙소로 이동. 짐 풀고 브라와 비치 카페에서 열대과일 주스로 여행 시작!</div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-dot"></div>
+                        <div class="step-time">17:30 - 19:30</div>
+                        <div class="step-heading">바투볼롱 비치 선셋 칠링 & 로컬 디너</div>
+                        <div class="step-desc">발리의 환상적인 핑크빛 노을을 감상하며 해변가 워킹. 타코나 인도네시아 나시고랭으로 든든하게 에너지 충전.</div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-dot salsa"></div>
+                        <div class="step-time">20:30 - 23:00</div>
+                        <div class="step-heading">💃 스미냑 La Favela (화) 또는 Amavi (수) 소셜</div>
+                        <div class="step-desc">화요일이라면 스미냑의 상징 <strong>La Favela</strong> 라이브 라틴 밴드에 맞춰 첫 댄스! 수요일이라면 짱구 <strong>Amavi</strong> 풀사이드에서 시원하게 SBK 소셜을 즐깁니다.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 2 (우붓 정글 힐링 & 액티비티) -->
+            <div class="itinerary-day">
+                <span class="itinerary-day-badge">DAY 2</span>
+                <h3 class="itinerary-title">우붓 정글 힐링 & 아융강 래프팅 + CP Lounge</h3>
+                <p class="itinerary-theme">대자연의 에너지 충전 & 금요일 우붓 CP Lounge 전설의 풀사이드 소셜</p>
+
+                <div class="timeline">
+                    <div class="timeline-step">
+                        <div class="timeline-dot"></div>
+                        <div class="step-time">08:00 - 15:00</div>
+                        <div class="step-heading">발리 정글 ATV + 아융강 급류 래프팅 (프라이빗 픽업)</div>
+                        <div class="step-desc">호텔 앞 전용 픽업으로 우붓 깊은 정글 속으로! 원시림 폭포를 가로지르는 아융강 래프팅과 진흙 코스를 질주하는 ATV로 댄서의 하체와 심폐지구력 풀가동! 현지 뷔페 점심 포함.</div>
+                    </div>
+
+                    <!-- 비아터 투어 박스 1 -->
+                    <div class="tour-booking-box" style="margin-bottom: 1.5rem;">
+                        <div class="tour-meta">
+                            <span class="tour-badge">★ 평점 4.9 (후기 2,400+)</span>
+                            <div class="tour-title">발리 정글 ATV 쿼드바이크 + 아융강 래프팅 콤보</div>
+                            <div class="tour-highlights">전용 차량 왕복 픽업 · 안전 장비 · 전문 가이드 · 샤워실 & 인도네시아식 점심 뷔페 포함</div>
+                        </div>
+                        <a href="https://www.viator.com/search/ATV%20Ubud?pid=P00328098&mcid=42383&medium=link" target="_blank" rel="noopener noreferrer" class="btn-viator">투어 최저가 예약하기 →</a>
+                    </div>
+
+                    <div class="timeline-step">
+                        <div class="timeline-dot"></div>
+                        <div class="step-time">16:00 - 18:30</div>
+                        <div class="step-heading">우붓 전통 발리니스 마사지 & 몸풀기</div>
+                        <div class="step-desc">래프팅 후 뭉친 근육을 천연 아로마 오일 스파로 부드럽게 이완. 가벼운 스트레칭으로 저녁 소셜을 완벽 대비합니다.</div>
+                    </div>
+                    <div class="timeline-step">
+                        <div class="timeline-dot salsa"></div>
+                        <div class="step-time">20:00 - 23:30</div>
+                        <div class="step-heading">💃 우붓 CP Lounge 라이브 라틴 나이트 (금)</div>
+                        <div class="step-desc">발리 살사 씬의 심장! 몽키포레스트 거리 <strong>CP Lounge</strong>의 야외 수영장 옆 스테이지에서 전 세계 댄서들과 논스톱 살사&바차타! 목요일은 Pilleyar, 수요일은 Herb Library로 이어집니다.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 3 (우붓 올인원 문화 힐링 & 사원) -->
+            <div class="itinerary-day">
+                <span class="itinerary-day-badge">DAY 3</span>
+                <h3 class="itinerary-title">우붓 올인원 감성 투어 & 토요 루프탑 바차타</h3>
+                <p class="itinerary-theme">뜨갈랄랑 계단식 논 테라스뷰 런치 & 성수 사원 정화 의식</p>
+
+                <div class="timeline">
+                    <div class="timeline-step">
+                        <div class="timeline-dot"></div>
+                        <div class="step-time">09:00 - 16:00</div>
+                        <div class="step-heading">우붓 올인원 프라이빗 전용차량 일일 투어</div>
+                        <div class="step-desc">전용 드라이버와 함께 뜨갈랄랑 라이스 테라스, 정글 발리스윙 인생샷, 천년 역사의 띠르따 엠풀 성수 정화 사원, 그리고 몽키포레스트까지 여유롭게 섭렵합니다.</div>
+                    </div>
+
+                    <!-- 비아터 투어 박스 2 -->
+                    <div class="tour-booking-box" style="margin-bottom: 1.5rem;">
+                        <div class="tour-meta">
+                            <span class="tour-badge">★ 우붓 예약 1위 (평점 4.9)</span>
+                            <div class="tour-title">우붓 시그니처 프라이빗 일일 투어 (스윙 & 폭포 & 사원)</div>
+                            <div class="tour-highlights">단독 프라이빗 차량 에어컨 완비 · 영어가능 친절 드라이버 · 입장료 포함 옵션</div>
+                        </div>
+                        <a href="https://www.viator.com/search/Best%20of%20Ubud%20Tour?pid=P00328098&mcid=42383&medium=link" target="_blank" rel="noopener noreferrer" class="btn-viator">프라이빗 투어 확인 →</a>
+                    </div>
+
+                    <div class="timeline-step">
+                        <div class="timeline-dot salsa"></div>
+                        <div class="step-time">20:00 - 23:00</div>
+                        <div class="step-heading">💃 Enclave Bistro & MaxOne 루프탑 바차타 (토)</div>
+                        <div class="step-desc">토요일 밤은 하노만 거리 <strong>Enclave Bistro</strong>에서 감미로운 센슈얼 바차타로 시작해, 맥스원 호텔 루프탑 <strong>Mad Monkey</strong> 바차타 나이트로 마무리!</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 4 (울루와투 절벽 & 선셋) -->
+            <div class="itinerary-day">
+                <span class="itinerary-day-badge">DAY 4</span>
+                <h3 class="itinerary-title">울루와투 70m 절벽 사원 께짝댄스 & 짐바란 씨푸드</h3>
+                <p class="itinerary-theme">인도양의 파도와 불꽃 댄스, 그리고 남부 네온 살사 피에스타</p>
+
+                <div class="timeline">
+                    <div class="timeline-step">
+                        <div class="timeline-dot"></div>
+                        <div class="step-time">13:30 - 20:00</div>
+                        <div class="step-heading">울루와투 절벽 사원 + 께짝 댄스 + 짐바란 선셋 디너</div>
+                        <div class="step-desc">바다 위 70m 깎아지른 절벽 끝 사원에서 펼쳐지는 100인의 합창 께짝 댄스! 노을을 바라보며 짐바란 백사장에서 신선한 그릴 랍스터&씨푸드 디너를 만끽합니다.</div>
+                    </div>
+
+                    <!-- 비아터 투어 박스 3 -->
+                    <div class="tour-booking-box" style="margin-bottom: 1.5rem;">
+                        <div class="tour-meta">
+                            <span class="tour-badge">★ 발리 버킷리스트 (평점 4.9)</span>
+                            <div class="tour-title">울루와투 절벽 사원 & 선셋 께짝 댄스 + 짐바란 비치 디너</div>
+                            <div class="tour-highlights">호텔 왕복 픽업 · VIP 께짝댄스 티켓 보장 · 해변 씨푸드 디너 풀코스</div>
+                        </div>
+                        <a href="https://www.viator.com/search/Uluwatu%20Temple%20Sunset%20Kecak?pid=P00328098&mcid=42383&medium=link" target="_blank" rel="noopener noreferrer" class="btn-viator">선셋 투어 확인 →</a>
+                    </div>
+
+                    <div class="timeline-step">
+                        <div class="timeline-dot salsa"></div>
+                        <div class="step-time">20:30 - 23:30</div>
+                        <div class="step-heading">💃 Hatch Bar Uluwatu 살사 피에스타 (토/화)</div>
+                        <div class="step-desc">남부의 힙스터들이 모이는 <strong>Hatch Bar</strong>에서 환상적인 네온 조명과 라이브 밴드 라틴 피에스타에 합류! 화요일엔 Rolling Fork 라이브 밴드로 연결됩니다.</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 5 (누사페니다 or 선셋 낮 살사) -->
+            <div class="itinerary-day">
+                <span class="itinerary-day-badge">DAY 5</span>
+                <h3 class="itinerary-title">누사페니다 에메랄드 절벽 & 레기안 선셋 낮 살사</h3>
+                <p class="itinerary-theme">티라노사우루스 공룡능선 인생샷 & 아줄 비치클럽 낮 소셜로 귀국 전 피날레</p>
+
+                <div class="timeline">
+                    <div class="timeline-step">
+                        <div class="timeline-dot"></div>
+                        <div class="step-time">06:30 - 14:00</div>
+                        <div class="step-heading">누사페니다 서부 프라이빗 스피드보트 일일 투어</div>
+                        <div class="step-desc">발리에서 가장 환상적인 에메랄드빛 바다! 클링킹 T-Rex 절벽, 천연 바다 수영장 엔젤스 빌라봉, 브로큰 비치를 프라이빗 차량으로 편안하게 탐험합니다.</div>
+                    </div>
+
+                    <!-- 비아터 투어 박스 4 -->
+                    <div class="tour-booking-box" style="margin-bottom: 1.5rem;">
+                        <div class="tour-meta">
+                            <span class="tour-badge">★ 비아터 평점 4.9 (후기 3,100+)</span>
+                            <div class="tour-title">누사페니다 섬 서부 시그니처 올인원 프라이빗 투어</div>
+                            <div class="tour-highlights">사누르 항구 왕복 고속 스피드보트 티켓 · 섬 내 전용 에어컨 차량 & 가이드 · 점심 식사 포함</div>
+                        </div>
+                        <a href="https://www.viator.com/search/Nusa%20Penida%20West%20Tour?pid=P00328098&mcid=42383&medium=link" target="_blank" rel="noopener noreferrer" class="btn-viator">누사페니다 예약하기 →</a>
+                    </div>
+
+                    <div class="timeline-step">
+                        <div class="timeline-dot salsa"></div>
+                        <div class="step-time">14:30 - 18:00</div>
+                        <div class="step-heading">💃 Azul Beach Club 레기안 선셋 낮 살사 (일)</div>
+                        <div class="step-desc">일요일 오후 비행기를 앞두고 계신다면 필수! <strong>Azul Beach Club</strong>에서 야자수 그늘과 파도 소리를 들으며 시원한 모히토와 함께 낮 소셜을 즐기고 공항으로 이동합니다.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 섹션 3: 댄서를 위한 발리 여행 실전 팁 -->
+        <section class="tips-section">
+            <div class="section-header">
+                <span class="section-badge">DANCER HACKS</span>
+                <h2 class="section-title">발리 살사 여행 실전 노하우 & 꿀팁</h2>
+                <p class="section-desc">발리 현지에서 춤추실 때 꼭 알아두셔야 할 4가지 실전 팁이에요.</p>
+            </div>
+
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <h4>👟 댄스 슈즈 바닥 선택</h4>
+                    <p>발리 살사바(CP Lounge, Pilleyar 등)는 야외 타일이나 부드러운 목재 바닥이 많습니다. 습기에 약한 스웨이드솔보다는 <strong>가죽솔 댄스화</strong>나 <strong>스핀이 잘 되는 댄스 스니커즈(Fuego 등)</strong>를 가져오시면 바닥 손상 없이 가장 편하게 출 수 있어요.</p>
+                </div>
+                <div class="tip-card">
+                    <h4>🛵 야간 이동 & 그랩/고젝</h4>
+                    <p>우붓이나 짱구의 밤길은 가로등이 어둡고 골목이 좁습니다. 소셜이 끝나는 밤 11시~자정에는 <strong>GoJek</strong>이나 <strong>Grab</strong> 오토바이/차량을 앱으로 바로 호출하시는 것이 안전합니다. 출발 전 eSIM 데이터가 빵빵하게 켜져 있는지 확인하세요!</p>
+                </div>
+                <div class="tip-card">
+                    <h4>👔 드레스코드 주의사항</h4>
+                    <p>발리는 전반적으로 캐주얼하지만, <strong>La Favela</strong>는 슬리퍼/비치웨어 입장이 엄격히 제한되며, <strong>CP Lounge</strong>는 남성 민소매(나시 티셔츠) 입장이 불가합니다. 깔끔한 반팔 린넨 셔츠와 면바지, 여성분은 가벼운 라틴 원피스를 추천해요.</p>
+                </div>
+                <div class="tip-card">
+                    <h4>💦 수분 보충 & 코코넛</h4>
+                    <p>열대 기후의 오픈 에어 바에서 3~4곡만 연속으로 춰도 땀이 쏟아집니다. 소셜 전후로 미네랄워터나 현지 로컬 코코넛 워터(Kelapa Muda)를 충분히 마셔 전해질을 보충해 주셔야 다음 날 낮 투어도 거뜬합니다!</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 섹션 4: 비아터 글로벌 숍 배너 -->
+        <div class="shop-banner">
+            <h3>🌏 Overseas Life Lab 추천 투어 숍</h3>
+            <p>방콕, 발리, 한국(전주), 호주(시드니&울릉공)까지! 평점 4.9 이상 검증된 전 세계 액티비티를 한곳에서 확인하세요.</p>
+            <a href="https://vi.me/s/overseaslifelab" target="_blank" rel="noopener noreferrer" class="btn-shop">비아터 투어 숍 둘러보기 (30일 할인 혜택) →</a>
+        </div>
+
+        <!-- 푸터 -->
+        <footer>
+            <p>© 2026 Overseas Life Lab. All rights reserved.</p>
+            <p style="margin-top: 6px;">
+                <a href="https://enoklee.github.io/bangkok-guide/">방콕 여행 가이드</a> · 
+                <a href="https://enoklee.github.io/bali-guide/">발리 살사 가이드</a> · 
+                <a href="https://enoklee.github.io/dev-stack/">개발세발 치트시트</a> · 
+                <a href="https://vi.me/s/overseaslifelab">비아터 공식 숍</a>
+            </p>
+            <div class="ftc-notice">
+                공정거래위원회 및 글로벌 제휴 규정에 따른 투명 고지: 본 가이드의 링크를 통해 투어 예약이나 상품 구매가 이루어질 경우, 운영자에게 소정의 제휴 수수료가 지급될 수 있으며 이는 사이트 유지 및 양질의 콘텐츠 제작에 큰 힘이 됩니다. 구매자분께 추가되는 비용은 전혀 없습니다.
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
